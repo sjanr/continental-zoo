@@ -1,0 +1,67 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.hero {
+  // bordered
+  // border: 1px red solid;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0.6rem;
+  height: 50rem;
+  background-image: url(../../assets/images/pandaImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 42%;
+  &__text {
+    // bordered
+    // border: 1px red solid;
+    width: 65rem;
+    margin-left: 5rem;
+    text-align: left;
+    color: $secondary-timber;
+    font-size: 6rem;
+    font-family: "Arial", sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+.description {
+  // bordered
+  // border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $secondary-grey;
+  background-color: white;
+  padding: 3rem;
+  &__text--header {
+    // bordered
+    // border: 1px red solid;
+    font-size: 1.3rem;
+    color: $primary-fern;
+  }
+  &__text--subheader {
+    // bordered
+    // border: 1px red solid;
+    font-size: 2.2rem;
+    margin-top: 0.5rem;
+  }
+  &__text--paragraph {
+    // bordered
+    // border: 1px red solid;
+    width: 70rem;
+    text-align: justify;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+  }
+}
