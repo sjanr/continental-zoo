@@ -9,3 +9,49 @@ body {
   margin: 0;
   font-family: "Arial", sans-serif;
 }
+
+.header {
+  // bordered
+  // border: red 1px solid;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+  &__logo {
+    // bordered
+    // border: 1px red solid;
+    height: 12.5rem;
+    width: 20rem;
+    margin-top: 1rem;
+    background-image: url(../../assets/logo/continentalZooLogo.svg);
+    background-position: 62%;
+    background-repeat: no-repeat;
+    background-size: 30rem;
+  }
+  &__nav {
+    // bordered
+    // border: 1px red solid;
+    margin-top: 5rem;
+    width: 72vw;
+    margin-right: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: $secondary-grey;
+    letter-spacing: 2px;
+  }
+}
+.buy-ticket {
+  // bordered
+  // border: solid red 1px;
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: 3rem;
+  background-color: $primary-fern;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
