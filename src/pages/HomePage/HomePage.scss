@@ -101,6 +101,7 @@ body {
 .info {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
   // bordered
   // border: 1px red solid;
   &__item {
@@ -109,7 +110,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 8rem;
     &-image-koala {
       width: 50vw;
       height: 41rem;
@@ -117,14 +117,20 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      // border-radius: 0.5rem;
     }
     &-image-peacock {
-      width: 50vw;
-      height: 41rem;
+      // bordered
+      // border: 1px red solid;
+      border-radius: 0.5rem;
+      width: 43vw;
+      height: 30rem;
       background-image: url(../../assets/images/peacockImage.jpg);
       background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
+      background-size: 52rem;
+      background-position: 0% 0%;
+      margin: 5rem;
+      margin-left: 0rem;
     }
     &-image-crocodile {
       width: 50vw;
@@ -133,6 +139,8 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      border-top-right-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
     }
     &-text-container {
       // bordered
@@ -165,6 +173,32 @@ body {
       text-align: left;
     }
   }
+  .koala-container {
+    background-color: $primary-fern;
+    & > .info__item-title {
+      color: white;
+    }
+    & > .info__item-text {
+      color: white;
+    }
+  }
+  .peacock-container {
+    // bordered
+    // border: 1px red solid;
+    & > .info__item-title {
+      text-align: right;
+    }
+    & > .info__item-text {
+      // bordered
+      // border: 1px red solid;
+      text-align: right;
+    }
+  }
+}
+.description-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
 }
 .description {
   // bordered
@@ -173,19 +207,25 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: $secondary-grey;
-  background-color: white;
-  padding: 0 3rem;
-  padding-bottom: 3rem;
+  color: white;
+  background-color: $primary-fern;
+  // padding: 0 1rem;
+  padding-bottom: 3rem 0;
+  height: 25rem;
+  width: 70vw;
+  border-radius: 0.5rem;
+  box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.1);
   &__text--header {
     // bordered
     // border: 1px red solid;
-    font-size: 1.3rem;
-    color: $primary-fern;
+    font-size: 1.1rem;
+    color: $secondary-sage;
   }
   &__text--subheader {
     // bordered
     // border: 1px red solid;
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: 100;
     font-size: 2.2rem;
     margin-top: 0.5rem;
   }

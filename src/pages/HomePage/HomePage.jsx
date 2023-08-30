@@ -66,7 +66,7 @@ function HomePage() {
           </div>
         </div>
         <div className="info__item">
-          <div className="info__item-text-container">
+          <div className="info__item-text-container peacock-container">
             <div className="info__item-title">Globally Acknowledged</div>
             <div className="info__item-text">
               Continental Zoo stands as a global icon of display and
@@ -95,27 +95,29 @@ function HomePage() {
           </div>
         </div>
       </section>
-      <section className="description">
-        <div className="description__text--header">
-          THRILLED TO EXPLORE WILDLIFE WITH YOU
-        </div>
-        <div className="description__text--subheader">
-          Embark on a Journey Across Continents
-        </div>
-        <div className="description__text--paragraph">
-          Continental Zoo stands as a haven for a myriad of captivating
-          creatures and awe-inspiring encounters with the world's diverse
-          wildlife. Since its inception decades ago, Continental Zoo has united
-          more than 50 million individuals from around the globe, inviting them
-          to delve into the boundless tapestry of Earth's remarkable
-          biodiversity and the treasures it holds.
-        </div>
-        <div className="description__text--paragraph">
-          Guided by an unwavering commitment to achieve the highest standards of
-          animal welfare within a cutting-edge facility, Continental Zoo offers
-          an immersive and educational expedition for every visitor.
-        </div>
-      </section>
+      <div className="description-container">
+        <section className="description">
+          <div className="description__text--header">
+            THRILLED TO EXPLORE WILDLIFE WITH YOU
+          </div>
+          <div className="description__text--subheader">
+            Embark on a Journey Across Continents
+          </div>
+          <div className="description__text--paragraph">
+            Continental Zoo stands as a haven for a myriad of captivating
+            creatures and awe-inspiring encounters with the world's diverse
+            wildlife. Since its inception decades ago, Continental Zoo has
+            united more than 50 million individuals from around the globe,
+            inviting them to delve into the boundless tapestry of Earth's
+            remarkable biodiversity and the treasures it holds.
+          </div>
+          <div className="description__text--paragraph">
+            Guided by an unwavering commitment to achieve the highest standards
+            of animal welfare within a cutting-edge facility, Continental Zoo
+            offers an immersive and educational expedition for every visitor.
+          </div>
+        </section>
+      </div>
     </>
   );
 }
