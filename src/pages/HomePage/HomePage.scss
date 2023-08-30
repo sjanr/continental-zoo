@@ -98,6 +98,74 @@ body {
     }
   }
 }
+.info {
+  display: flex;
+  flex-direction: column;
+  // bordered
+  // border: 1px red solid;
+  &__item {
+    // bordered
+    // border: 1px red solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8rem;
+    &-image-koala {
+      width: 50vw;
+      height: 41rem;
+      background-image: url(../../assets/images/koalaImage.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &-image-peacock {
+      width: 50vw;
+      height: 41rem;
+      background-image: url(../../assets/images/peacockImage.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &-image-crocodile {
+      width: 50vw;
+      height: 41rem;
+      background-image: url(../../assets/images/crocodile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &-text-container {
+      // bordered
+      // border: 1px red solid;
+      width: 50vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &-title {
+      // bordered
+      // border: 1px red solid;
+      font-family: "Arial Narrow", sans-serif;
+      font-weight: 100;
+      width: 48rem;
+      color: $secondary-grey;
+      letter-spacing: 2px;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+    &-text {
+      // bordered
+      // border: 1px red solid;
+      color: $secondary-grey;
+      width: 48rem;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      text-align: left;
+    }
+  }
+}
 .description {
   // bordered
   // border: 1px red solid;
