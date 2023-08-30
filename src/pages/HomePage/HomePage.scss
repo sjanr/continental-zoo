@@ -34,6 +34,70 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 }
+.cards {
+  // bordered
+  // border: 1px red solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  &__item {
+    // bordered
+    // border: 1px red solid;
+    width: 33rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.1);
+    &-image-flamingo {
+      height: 19rem;
+      background-image: url(../../assets/images/flamingoImage.jpg);
+      background-repeat: no-repeat;
+      background-size: 40rem;
+      background-position: center 25%;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+    &-image-tiger {
+      height: 19rem;
+      background-image: url(../../assets/images/tigerImage.jpg);
+      background-repeat: no-repeat;
+      background-size: 45rem;
+      background-position: 80% 0%;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+    &-image-polarBear {
+      height: 19rem;
+      background-image: url(../../assets/images/polarBearImage.jpg);
+      background-repeat: no-repeat;
+      background-size: 45rem;
+      background-position: center 60%;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+    &-textContainer {
+      padding: 1rem 1.5rem;
+      text-align: left;
+      color: $secondary-grey;
+    }
+    &-context {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+    }
+    &-description {
+      margin-top: 1rem;
+      height: 13rem;
+      line-height: 1.7rem;
+      font-size: 1.2rem;
+    }
+    &-hyperlink {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      color: $primary-fern;
+      font-family: "Arial", sans-serif;
+      font-weight: 800;
+    }
+  }
+}
 .description {
   // bordered
   // border: 1px red solid;
@@ -43,7 +107,8 @@ body {
   align-items: center;
   color: $secondary-grey;
   background-color: white;
-  padding: 3rem;
+  padding: 0 3rem;
+  padding-bottom: 3rem;
   &__text--header {
     // bordered
     // border: 1px red solid;
