@@ -19,21 +19,22 @@ body {
   &__logo {
     // bordered
     // border: 1px red solid;
-    height: 12.5rem;
+    height: 10rem;
     width: 20rem;
     margin-top: 1rem;
     background-image: url(../../assets/logo/continentalZooLogo.svg);
-    background-position: 62%;
+    background-position: 60% -7rem;
     background-repeat: no-repeat;
-    background-size: 30rem;
+    background-size: 24rem;
   }
   &__nav {
     // bordered
     // border: 1px red solid;
     margin-top: 5rem;
+    padding-top: 1.2rem;
     width: 72vw;
     margin-right: 4rem;
-    height: 3rem;
+    height: 6.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;

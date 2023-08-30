@@ -15,7 +15,6 @@ body {
   // border: 1px red solid;
   display: flex;
   align-items: flex-end;
-  margin-top: 0.6rem;
   height: 50rem;
   background-image: url(../../assets/images/pandaImage.jpg);
   background-repeat: no-repeat;
@@ -43,7 +42,8 @@ body {
   &__item {
     // bordered
     // border: 1px red solid;
-    width: 33rem;
+    // width: 33rem;
+    width: 28vw;
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.1);

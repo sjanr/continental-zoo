@@ -41,11 +41,10 @@ function HomePage() {
           <div className="cards__item-textContainer">
             <div className="cards__item-context">Membership</div>
             <div className="cards__item-description">
-              Embark on a Continental Zoo Membership journey now. Recieve a
-              one-year admission to our extraordinary wildlife! Delight in
-              privileged entry to member-exclusive events, access exclusive
-              discounts, and uncover a wealth of special benefits that enrich
-              your zoo experience and make memories that last a lifetime.
+              Recieve a one-year admission to our extraordinary wildlife!
+              Delight in privileged entry to member-exclusive events, access
+              exclusive discounts, and uncover a wealth of special benefits that
+              enrich your zoo experience and make memories that last a lifetime.
             </div>
             <div className="cards__item-hyperlink">JOIN NOW</div>
           </div>
