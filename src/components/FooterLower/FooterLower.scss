@@ -1,0 +1,42 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  background-color: $primary-hunter;
+}
+.footer-lower {
+  // bordered
+  // border: 1px red solid;
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  // justify-content: space-between;
+  gap: 4rem;
+  align-items: center;
+  width: 35vw;
+
+  &__logo {
+    // bordered
+    // border: 1px red solid;
+    height: 10rem;
+    width: 20rem;
+    margin-top: 1rem;
+    background-image: url(../../assets/logo/continentalZooLogoWhite.svg);
+    background-position: 60% -7rem;
+    background-repeat: no-repeat;
+    background-size: 24rem;
+  }
+  &__rights {
+    color: white;
+  }
+}

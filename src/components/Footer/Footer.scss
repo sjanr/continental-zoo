@@ -12,10 +12,11 @@ body {
 
 .footer__section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: $primary-fern;
   padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
+  padding-bottom: 2rem;
 }
 .footer {
   // bordered
@@ -52,42 +53,32 @@ body {
     // border: 1px red solid;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 65%;
   }
   &__item-social {
     // bordered
     // border: 1px red solid;
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
   }
   .instagram {
     background-image: url(../../assets/icons/instagramIcon.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    // background-position: center 25%;
   }
   .youtube {
     background-image: url(../../assets/icons/youtubeIcon.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    // background-position: center 25%;
   }
   .twitter {
     background-image: url(../../assets/icons/twitterIcon.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    // background-position: center 25%;
   }
   .facebook {
     background-image: url(../../assets/icons/facebookIcon.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    // background-position: center 25%;
   }
 }
-
-// IMAGE
-// background-image: url(../../assets/images/flamingoImage.jpg);
-// background-repeat: no-repeat;
-// background-size: 40rem;
-// background-position: center 25%;
