@@ -1,0 +1,50 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.footer__section {
+  display: flex;
+  justify-content: center;
+  background-color: $primary-fern;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+.footer {
+  // bordered
+  // border: 1px red solid;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  color: white;
+  text-align: left;
+  &__container {
+    // bordered
+    // border: 1px red solid;
+    width: 32%;
+    &-item {
+      // bordered
+      // border: 1px red solid;
+      margin-bottom: 3.5rem;
+    }
+  }
+  &__item-header {
+    border-bottom: white 1px solid;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.15rem;
+  }
+  &__item-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+}

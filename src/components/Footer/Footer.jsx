@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <div className="footer__container">
+      <div className="footer__section">
         <div className="footer">
           <div className="footer__container">
             <div className="footer__container-item">
