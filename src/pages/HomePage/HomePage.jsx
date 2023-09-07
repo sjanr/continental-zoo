@@ -1,5 +1,6 @@
 import "./HomePage.scss";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 function HomePage() {
   return (
@@ -140,6 +141,7 @@ function HomePage() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
