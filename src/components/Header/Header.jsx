@@ -1,6 +1,5 @@
 import "./Header.scss";
 import { NavLink, Link } from "react-router-dom";
-import headerImg from "../../assets/logo/continentalZooLogo.svg";
 
 function Header() {
   return (
