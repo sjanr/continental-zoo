@@ -37,10 +37,12 @@ function Footer() {
           <div className="footer__container">
             <div className="footer__container-item">
               <div className="footer__item-header">Connect With Us</div>
-              <div className="footer__item-social instagram"></div>
-              <div className="footer__item-social youtube"></div>
-              <div className="footer__item-social twitter"></div>
-              <div className="footer__item-social facebook"></div>
+              <div className="footer__item-social-container">
+                <div className="footer__item-social instagram"></div>
+                <div className="footer__item-social youtube"></div>
+                <div className="footer__item-social twitter"></div>
+                <div className="footer__item-social facebook"></div>
+              </div>
             </div>
           </div>
         </div>
