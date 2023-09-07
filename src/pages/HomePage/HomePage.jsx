@@ -118,6 +118,28 @@ function HomePage() {
           </div>
         </section>
       </div>
+      <section className="accreditation-container">
+        <div className="accreditation">
+          <div className="accreditation__header">Accreditation</div>
+          <div className="accreditation__text">
+            <div className="accreditation__text-title">
+              Acclaimed for Exceptional Quality
+            </div>
+            <div className="accreditation__text-main">
+              Continental Zoo willingly participates in periodic accreditation
+              evaluations conducted by professional associations. Through this
+              voluntary process, we independently validate our commitment to
+              upholding, and often exceeding, the industry's established
+              benchmarks in animal care, education, conservation, and research.
+            </div>
+          </div>
+          <div className="accreditation__images">
+            <div className=" aza"></div>
+            <div className="caza"></div>
+            <div className="waza"></div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

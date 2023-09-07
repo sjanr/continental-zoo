@@ -101,7 +101,7 @@ body {
 .info {
   display: flex;
   flex-direction: column;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   // bordered
   // border: 1px red solid;
   &__item {
@@ -192,6 +192,85 @@ body {
       // bordered
       // border: 1px red solid;
       text-align: right;
+    }
+  }
+}
+.accreditation-container {
+  // bordered
+  // border: 1px red solid;
+  display: flex;
+  justify-content: center;
+}
+.accreditation {
+  // bordered
+  // border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $secondary-grey;
+  &__header {
+    // bordered
+    // border: 1px red solid;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  &__text {
+    text-align: left;
+    width: 70vw;
+    font-size: 1.5rem;
+    &-title {
+      // bordered
+      // border: 1px red solid;
+      font-size: 2rem;
+      font-family: "Arial Narrow", sans-serif;
+      font-weight: 100;
+      margin-bottom: 1rem;
+    }
+    &-main {
+      // bordered
+      // border: 1px red solid;
+      line-height: 2rem;
+      // margin-bottom: 1rem;
+    }
+  }
+  &__images {
+    // bordered
+    // border: 1px red solid;
+    display: flex;
+    width: 70vw;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    .aza {
+      // bordered
+      // border: 1px red solid;
+      width: 30vw;
+      height: 20rem;
+      background-image: url(../../assets/logo/AZA.svg);
+      background-repeat: no-repeat;
+      background-size: 28rem;
+      background-position: center;
+    }
+    .caza {
+      // bordered
+      // border: 1px red solid;
+      width: 30vw;
+      height: 20rem;
+      background-image: url(../../assets/logo/CAZA.svg);
+      background-repeat: no-repeat;
+      background-size: 28rem;
+      background-position: center;
+    }
+    .waza {
+      // bordered
+      // border: 1px red solid;
+      width: 30vw;
+      height: 20rem;
+      background-image: url(../../assets/logo/WAZA.svg);
+      background-repeat: no-repeat;
+      background-size: 28rem;
+      background-position: center;
     }
   }
 }
