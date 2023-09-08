@@ -30,11 +30,11 @@ body {
   &__nav {
     // bordered
     // border: 1px red solid;
-    margin-top: 5rem;
-    padding-top: 1.2rem;
+    // margin-top: 4rem;
+    padding-top: 5.6rem;
     width: 72vw;
     margin-right: 4rem;
-    height: 6.5rem;
+    height: 11rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,8 +44,10 @@ body {
     letter-spacing: 2px;
     &-item {
       padding: 2rem 0rem;
-      // bordered
-      // border: 1px red solid;
+    }
+    &-item:hover {
+      // outline-bottom: solid red 3px;
+      border-bottom: solid $primary-hunter 3.8px;
     }
   }
 }
@@ -65,7 +67,7 @@ body {
   // bordered
   // border: 1px red solid;
 }
-.dropdown:hover {
+.item:hover {
   // outline-bottom: solid red 3px;
-  border-bottom: solid $primary-hunter 3px;
+  border-bottom: solid $primary-hunter 3.5px;
 }
