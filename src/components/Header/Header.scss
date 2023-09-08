@@ -42,6 +42,11 @@ body {
     font-weight: 600;
     color: $secondary-grey;
     letter-spacing: 2px;
+    &-item {
+      padding: 2rem 0rem;
+      // bordered
+      // border: 1px red solid;
+    }
   }
 }
 .buy-ticket {
@@ -55,4 +60,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.dropdown {
+  // bordered
+  // border: 1px red solid;
+}
+.dropdown:hover {
+  // outline-bottom: solid red 3px;
+  border-bottom: solid $primary-hunter 3px;
 }
