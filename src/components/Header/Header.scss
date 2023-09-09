@@ -46,8 +46,7 @@ body {
       padding: 2rem 0rem;
     }
     &-item:hover {
-      // outline-bottom: solid red 3px;
-      border-bottom: solid $primary-hunter 3.8px;
+      border-bottom: solid $primary-hunter 4px;
     }
   }
 }
@@ -62,12 +61,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.dropdown {
-  // bordered
-  // border: 1px red solid;
-}
-.item:hover {
-  // outline-bottom: solid red 3px;
-  border-bottom: solid $primary-hunter 3.5px;
 }

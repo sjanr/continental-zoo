@@ -7,9 +7,13 @@ function Header() {
       <header className="header">
         <div className="header__logo"></div>
         <div className="header__nav">
-          <div className="header__nav-item dropdown">TICKETS & MEMBERSHIPS</div>
-          <div className="header__nav-item dropdown">PLAN YOUR VISIT</div>
-          <div className="header__nav-item dropdown">
+          <div className="header__nav-item dropdown ticketsAndMembership">
+            TICKETS & MEMBERSHIPS
+          </div>
+          <div className="header__nav-item dropdown planYourVisit">
+            PLAN YOUR VISIT
+          </div>
+          <div className="header__nav-item dropdown exhibitsAndExperiences">
             EXHIBITS & EXPERIENCES
           </div>
           <div className="header__nav-item dropdown">GROUPS</div>

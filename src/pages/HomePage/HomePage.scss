@@ -9,12 +9,23 @@ body {
   margin: 0;
   font-family: "Arial", sans-serif;
 }
+.navigation {
+  // bordered
+  color: $secondary-grey;
+  border: 1px red solid;
+  width: 20rem;
+  margin-left: 5rem;
 
+  // display: none;
+  visibility: hidden;
+}
 .hero {
   // bordered
   // border: 1px red solid;
-  display: flex;
-  align-items: flex-end;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   height: 50rem;
   background-image: url(../../assets/images/pandaImage.jpg);
   background-repeat: no-repeat;
@@ -25,13 +36,17 @@ body {
     // bordered
     // border: 1px red solid;
     width: 65rem;
+    height: 35rem;
     margin-left: 5rem;
+    // margin-top: 10rem;
+    display: flex;
+    align-items: flex-end;
     text-align: left;
-    color: $secondary-timber;
+    color: $secondary-sage;
     font-size: 6rem;
     font-family: "Arial", sans-serif;
     font-weight: 800;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px $primary-brunswick;
   }
 }
 .cards {

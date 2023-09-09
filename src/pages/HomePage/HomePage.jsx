@@ -8,6 +8,16 @@ function HomePage() {
     <>
       <Header />
       <section className="hero">
+        <div className="navigation-container">
+          <div className="navigation">
+            <div className="navigation__item">
+              <div className="navigation__item-title">Admission</div>
+              <div className="navigation__item-text">Tickets</div>
+              <div className="navigation__item-text">Planning Your Visit</div>
+              <div className="navigation__item-text">Visitor FAQs</div>
+            </div>
+          </div>
+        </div>
         <p className="hero__text">Exploring Wildlife, Spanning Continents</p>
       </section>
       <section className="cards">
